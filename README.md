@@ -11,21 +11,25 @@
 Overview:
 
 The Ticket Booking Portfolio Website is a web-based platform designed to streamline the process of discovering, selecting, and booking tickets for a variety of events. The website caters to users who are interested in attending concerts, movies, sports events, and other activities that require ticket reservations. It combines an intuitive user interface with robust functionalities to enhance the overall experience.
+
 Features:
 
 Event Listings:
 
 Display a comprehensive list of upcoming events, including concerts, movies, sports matches, and other entertainment options.
 Each event listing provides essential details such as the event name, date, venue, and a brief description.
+
 Event Details:
 
 Clicking on an event reveals more detailed information, such as the event schedule, artists, performers, movie cast, and any additional relevant details.
+
 Ticket Booking System:
 
 Users can easily select the number of tickets they want to purchase for a specific event.
 If applicable, a seat selection feature allows users to choose their preferred seating arrangements.
 Transparent pricing details are provided, and users can see the total cost before proceeding to checkout.
-User Authentication:
+
+Authentication:
 
 Users have the option to create accounts and log in to the platform.
 Authenticated users can track their booking history, manage preferences, and receive personalized recommendations based on their interests.
