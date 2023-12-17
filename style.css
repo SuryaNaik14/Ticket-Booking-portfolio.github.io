@@ -1,0 +1,543 @@
+    /* *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: 0%;
+    } */
+/* Header starts here */
+
+.navigationbar{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(36, 35, 35);
+    /* border:3px solid; */
+    border-radius: 5px;
+
+ }
+ .navigationbar1 {
+     height: 90px;
+     width: 100%;
+     list-style-type: none;
+     overflow: hidden;
+     font-size:xx-large ;
+     font-weight: bolder;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .navigationbar3 > a:hover {
+     height: 40px;
+     color: whitesmoke;
+     /* background-color: aqua; */
+     border-radius: 6px;
+ }
+ .navigationbar2{
+     height: 90px;
+     width: 10%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     /* background-color: aliceblue; */
+   
+ }
+ #navigationbar2img{
+    height: 90px;
+     width: 150px;
+     /* text-align: center; */
+     /* background-color: white; */
+
+ }
+ .navigationbar3{
+     height: 90px;
+     width: 60%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .navigationbar3 >a {
+     color:rgb(139, 134, 134);
+     text-decoration: none;
+     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+ }
+ .navigationbar4{
+     height: 80px;
+     width: 10%;
+     /* background-color:rgb(180, 237, 123); */
+     display: flex;
+     justify-content: center;
+     font-weight: 900;
+     align-items: center;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ }
+ .navigationbar4>button{
+    height: 50px;
+    width: 100%;
+    color: grey;
+    cursor: pointer;
+
+    border-radius: 5px;
+    font-weight: bolder;
+    /* background-color: aqua; */
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .navigationbar4>button:hover{
+    color: black;
+    background-color: red;
+ }
+
+/* Header ends here */
+
+
+    #hero-section {
+      position: relative;
+      height: 700px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #hero-section video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* z-index: -1; */
+    }
+    .alertContent{
+        height:50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: rgb(242, 236, 236);
+    }
+
+    .OffersContainer{
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+        /* background-color: rgb(219, 218, 217); */
+
+    }
+    .OffersContainerSubOutline{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        /* background-color: red; */
+    }
+    .OffersContainerSub{
+        height: 200px;
+        width: 45%;
+        background-color: aliceblue;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .OffersContainerSub1{
+        height: 200px;
+        width: 97%;
+        display: flex;
+
+    }
+    .OffersContainerSub11{
+        height: 200px;
+        width: 60%;
+    }
+    .OffersContainerSub12{
+        height: 200px;
+        width: 20%;
+
+    }
+    .OffersContainerSub12>img{
+        height:200px ;
+        /* width: 100%; */
+    }
+    .OffersContainerSub11>button{
+        height: 30px;
+        width: 150px;
+        color: white;
+        font-weight: bolder;
+        background-color: blue;
+        border-radius: 5px;
+
+    }
+    .OffersContainerSub11>button:hover{
+        background-color: rgb(40, 77, 240);
+    }
+    .TopTrendingPlaceOutline{
+        height: 650px;
+        width: 100%;
+        /* background-color: rgb(219, 218, 217); */
+
+    }
+    .TopTrendingPlaceOutline1{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .TopTrendingPlace{
+        height: 500px;
+        width: 96%;
+    }
+    .TopTrendingPlaceSub{
+        height: 250px;
+        width: 100%;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .TopTrendingPlaceSub1{
+        height: 250px;
+        width: 47%;
+        background-size: cover;
+        border-radius: 5px;
+        background-image:url(./images/goa.jpg);
+        display:flex;
+        justify-content: space-around;
+        align-items:last baseline;
+        color: white;
+        font-size: 35px;
+    }
+    .TopTrendingPlaceSub2{
+        height: 250px;
+        width: 47%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-image:url(./images/kerala.jpg);
+        display:flex;
+        justify-content: space-around;
+        align-items:last baseline;
+        color: white;
+        font-size: 35px;
+        
+    }
+    .TopTrendingPlaceSub3{
+        height: 250px;
+        width: 30%;
+        background-size: cover;
+        border-radius: 5px;
+        background-image:url(./images/taj-mahal.jpg);
+        display:flex;
+        justify-content: space-around;
+        align-items:last baseline;
+        color: white;
+        font-size: 35px;
+    }
+    .TopTrendingPlaceSub4{
+        height: 250px;
+        width: 30%;
+        background-size: cover;
+         border-radius: 5px;
+        background-image:url(./images/ooty.jpg);
+        display:flex;
+        justify-content: space-around;
+        align-items:last baseline;
+        color: white;
+        font-size: 35px;
+    }
+    .TopTrendingPlaceSub5{
+        height: 250px;
+        width: 30%;
+        background-size: cover;
+        border-radius: 5px;
+        background-image:url(./images/varanasi.jpg);
+        display:flex;
+        justify-content: space-around;
+        align-items:last baseline;
+        color: white;
+        font-size: 35px;
+    }
+    .TopTrendingPlaceSub1>div{
+        width: 100%;
+        background-color:rgba(0, 0,0, 0.5);
+        text-align: center;
+    }
+    .TopTrendingPlaceSub2>div{
+        width: 100%;
+        background-color:rgba(0, 0,0, 0.5);
+        text-align: center;
+    }
+    .TopTrendingPlaceSub3>div{
+        width: 100%;
+        background-color:rgba(0, 0,0, 0.5);
+        text-align: center;
+    }
+
+    .TopTrendingPlaceSub4>div{
+        width: 100%; 
+        /* opacity: 10%;    */
+        background-color:rgba(0, 0,0, 0.5);
+        text-align: center;
+    }
+    .TopTrendingPlaceSub5>div{
+        width: 100%;
+        background-color:rgba(0, 0,0, 0.5);
+        text-align: center;
+    }
+
+    .OtherTrendingPlaceOutline{
+        height: 400px;
+        width: 100%;
+    }
+    .OtherTrendingPlacesOut{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+       
+
+    }
+    .OtherTrendingPlaces{
+
+        height: 180px;
+        width: 180px;
+        border-radius: 5px;
+        /* border: 2px solid; */
+    }
+    .OtherTrendingPlaces>img{
+        height:180px ;
+        width: 180px;
+        border-radius: 5px;
+
+    } 
+    .OtherTrendingPlaces>img:hover{
+        border: 2px solid;
+    }
+
+
+    .bookingcomming{
+        height: 550px;
+        width: 100%;
+    }
+
+
+    
+    
+    
+/* footer starts here */
+footer{
+    height: 20px;
+}
+#footerdiv{
+    color: rgb(0, 0, 0);
+    border-top: 1px solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#footerdiv>div{
+   width: 8px;
+}
+
+/* footer ends here */
+
+
+/* aboutus page starts here*/
+
+.aboutusname{
+    /* color: blue; */
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .aboutusContentOut,.aboutusContent1Out,.aboutusContentForAnyQuery{
+    height: 200px;
+    width: 100%;
+    color: rgb(114, 112, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+  }
+  .aboutusContent,.aboutusContent1{
+    height: 200px;
+    width: 95%;
+    border-radius: 5px;
+    line-height: 25px;
+    /* background: rgb(198, 199, 202); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .aboutusContentForAnyQuery1{
+    height: 200px;
+    width: 95%;
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+    line-height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+  }
+  .aboutusTransportImage,.aboutusTransportAnotherImage{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .aboutusTransportImage>img{
+    height: 400px;
+    width: 50%;
+  }
+  .aboutusTransportAnotherImage>img:hover{
+    transform: scaleX(-1.1);
+}
+
+/* aboutus page ends here*/
+
+/* services offered page starts here */
+.aboutservice{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.mainService{
+    height: 1000px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ServicesOffer{
+    text-align: center;
+    color: rgb(96, 96, 101);
+    font-size: 40px;
+    font-weight: bold;
+}
+.serviceSection{
+    height: 900px;
+    width:49%;
+   
+}
+.flexDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modeOfTransportation{
+    height: 400px;
+    width: 70%;
+    background-color:rgb(240, 237, 237);
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+.transportTicket{
+    width:100%;
+    color: black;
+    font-size: 18px;
+    padding: 16px 32px;   
+    text-align: center;
+}
+.imagebus,.imagetrain,.imageflight,.imagecar{
+    display: flex;
+    justify-content: center;
+}
+.imgbusTicket,.imgtrainTicket,.imgflightTicket,.imgcarTicket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentOfTransport{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.transportTicket>p{
+    opacity: 0;
+    width: 100%;
+}
+:hover>.contentOfTransport>.transportTicket>p{
+    opacity: 1;
+    cursor: pointer;
+    transition: .5s;
+    color: rgb(249, 249, 217);
+}
+.modeOfTransportation:hover{
+    cursor: pointer;
+    background-color: rgb(103, 103, 106);
+    transition: 1s;
+    transform: scale(1.1);
+}
+.imageflight,.imagebus,.imagecar{
+    height: 230px;
+}
+/* services offered page ends here */
+
+
+/* queries page starts here */
+
+.queriesMain{
+    width: 100%;
+    height: 880px; 
+}
+.searchDiv{
+    width: 90%;
+    border: 1px solid;
+    border-radius: 15px;
+}
+.searchDiv>svg{
+    cursor: pointer;
+}
+#searchQuery{
+    width: 98%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(244, 237, 237);
+    color:rgb(3, 3, 3);
+    font-size: large;
+    border: none;
+}
+
+.tableList{
+    width:100%;
+    height: 680px;
+}
+.tableList>Div{
+    width: 100%;
+}
+.queriesMain>   h2{
+    color: rgb(107, 108, 114);
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    font-weight:bolder;
+}
+#searchText{
+    color: rgb(15, 14, 15);
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    font-weight:bolder; 
+}
+td>h4{
+    color: rgb(102, 101, 105);
+}
+table{
+    width: 90%;
+}
+
+td{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: rgb(77, 74, 74);
+}
+tr{
+    width: 330px;
+}
+
+/* queries page ends here */
